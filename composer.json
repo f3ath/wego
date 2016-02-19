@@ -1,0 +1,20 @@
+{
+  "name": "f3ath/wego",
+  "description": "Wego API client",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Karapetov",
+      "email": "karapetov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "F3\\Wego\\": "src/"
+    }
+  },
+  "require": {
+    "phpcurl/curlhttp": "^1.0"
+  }
+}
